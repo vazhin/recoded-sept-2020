@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-var express = require('express');
-var router = express.Router();
-
-/* GET home page. */
-router.get('/recent', function (req, res, next) {
-  res.render('post_list', { title: 'Recent Posts' });
-});
-
-module.exports = router;
-||||||| 7f11b74
-=======
 var express = require('express');
 var router = express.Router();
 
@@ -34,4 +22,3 @@ router.get('/view', (req, res, next) => {
 });
 
 module.exports = router;
->>>>>>> 44e9afcd3a43798f0807089a5ed1e5d2df7e4edc
